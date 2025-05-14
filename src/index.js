@@ -22,7 +22,7 @@ app.post("/NodeCurso", (request, response) => {
 });
 
 app.put("/NodeCourso/:id", (request, response) => {
-    return response.json(["Curso 6", "Curso 2", "Curso 3", "Curso 4"]);
+    return response.json(["Curso 6", "Curso 2", "Curso 3", "Curso 4", "Matheus"]);
 });
 
 app.patch("/NodeCourso/:id", (request, response) => {
